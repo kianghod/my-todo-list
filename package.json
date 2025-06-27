@@ -1,0 +1,37 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "A beautiful, minimal to-do list application with Apple-inspired design",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 8000",
+    "build": "echo 'No build step required for static site'",
+    "deploy": "echo 'Deploy to GitHub Pages or Netlify'"
+  },
+  "keywords": [
+    "todo",
+    "task-manager",
+    "minimal",
+    "apple-design",
+    "responsive",
+    "vanilla-javascript",
+    "css3",
+    "html5"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/todo-app.git"
+  },
+  "homepage": "https://yourusername.github.io/todo-app",
+  "bugs": {
+    "url": "https://github.com/yourusername/todo-app/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+} 
